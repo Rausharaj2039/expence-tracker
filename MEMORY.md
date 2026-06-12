@@ -1,0 +1,1 @@
+- [Feature Registration Implementation](feature-registration-implementation.md) — Completed Step 2 user registration feature for Spendly expense tracker
