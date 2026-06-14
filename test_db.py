@@ -4,8 +4,8 @@ import os
 
 def get_db():
     """Returns a SQLite connection with row_factory and foreign keys enabled"""
-    # Connect to the database file in the project root
-    db_path = os.path.join(os.path.dirname(__file__), '..', 'spendly.db')
+    # Connect to the database file in the current directory
+    db_path = 'spendly.db'
     print(f"Connecting to: {db_path}")
     conn = sqlite3.connect(db_path)
     # Enable foreign key constraints
